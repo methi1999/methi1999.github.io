@@ -16,9 +16,10 @@ We worked on 2 projects:
 
 In the summer of 2020, I interned at APT Portfolio, a high-frequency trading firm.
 
-Currently, I am working with [Prof. Preeti Rao](https://www.ee.iitb.ac.in/web/people/faculty/home/prao) on processing
+I am a part of the [Digital Audio Processing lab](https://www.ee.iitb.ac.in/student/~daplab/) at IIT Bombay.
+I am working with [Prof. Preeti Rao](https://www.ee.iitb.ac.in/web/people/faculty/home/prao) on processing
 children's speech using deep learning techniques. I am especially interested in extracting **prosodic** features for
-tasks such as **oral reading fluency assessment** and prosodic event detection such as **phrase boundary** and **word prominence**
+tasks such as **oral reading fluency assessment** and prosodic event detection (**prominence** and **phrase boundary**).
 
 I serve on the Editorial Board of [Insight](https://www.insightiitb.org), IIT Bombay's student media body.
 
