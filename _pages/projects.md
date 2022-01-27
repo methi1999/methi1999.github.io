@@ -6,7 +6,7 @@ permalink: /projects
 
 ### Research Projects
 
-* Master's Thesis (Stage 1): Deep Learning for Prominence Detection in Children’s Read Speech (based on waveform segments)  
+* Dual-Degree Project (Stage 1): Deep Learning for Prominence Detection in Children’s Read Speech (based on waveform segments)  
   [[presentation]]({{ site.url }}/assets/pdf/ddp1_ppt.pptx) [[report]]({{ site.url }}/assets/pdf/ddp1_report.pdf) [[arXiv]](https://arxiv.org/abs/2110.14273)
 
 * Character Animation from Video in Blender  

@@ -4,4 +4,4 @@ title: CV
 permalink: /cv
 ---
 
-[CV]({{site.url}}/assets/pdf/cv.pdf) (Last updated: December 2021)
+[CV]({{site.url}}/assets/pdf/cv.pdf) (Last updated: January 2022)
