@@ -21,6 +21,7 @@ I blog about my experiences [here]({{site.url}}/blog.html).
 ## Updates
 
 <!-- <div style="height:250px;overflow:auto;"> -->
+* **April 2022**: Accepted an offer from GeorgiaTech for a Master's in Computer Science!
 * **January 2022**: Our work on *Deep Learning for Prominence Detection in Children’s Read Speech* got accepted at ICASSP 2022!
 * **January 2022**: Gave a [talk]({{site.url}}/assets/pdf/dap_wav2vec.pdf) on Wav2vec 2.0 as part of DAP lab at IIT Bombay.
 * **October 2021**: Presented Stage 1 of my Dual-Degree Project. Report available in [Projects]({{site.url}}/projects.html) section. 
