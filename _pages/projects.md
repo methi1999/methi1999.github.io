@@ -6,8 +6,11 @@ permalink: /projects
 
 ### Research Projects
 
+* Dual-Degree Project (Stage 2): Assessing Comprehensibility of Children's Read Speech 
+  [[presentation]]({{ site.url }}/assets/pdf/ddp2_ppt.pptx) [[report]]({{ site.url }}/assets/pdf/ddp2_report.pdf)
+
 * Dual-Degree Project (Stage 1): Deep Learning for Prominence Detection in Children’s Read Speech (based on waveform segments)  
-  [[presentation]]({{ site.url }}/assets/pdf/ddp1_ppt.pptx) [[report]]({{ site.url }}/assets/pdf/ddp1_report.pdf) [[arXiv]](https://arxiv.org/abs/2110.14273)
+  [[presentation]]({{ site.url }}/assets/pdf/ddp1_ppt.pptx) [[report]]({{ site.url }}/assets/pdf/ddp1_report.pdf) [[paper]](https://ieeexplore.ieee.org/abstract/document/9747780)
 
 * Character Animation from Video in Blender  
   [[presentation]](https://docs.google.com/presentation/d/1TEVYZGPMrn5LLypoGjDc5QhWAy3K8PVQNFJfoFA-RS4/edit?usp=sharing) [[report]]({{ site.url }}/assets/pdf/hpr_report.pdf)
