@@ -8,9 +8,9 @@ permalink: /
 
 Hello there! My name is Mithilesh Vaidya.
 
-I’m a final year student in the Electrical Engineering department at IIT Bombay.
+I am pursuing a Master's in Computer Science at GeorgiaTech.
 
-I am broadly interested in the fields of **Machine Learning** and **Speech Processing**.
+I am broadly interested in the fields of **Machine Learning, Speech Processing** and **Computational Neuroscience**.
 
 I plan to use this website as a medium for sharing my projects and other random thoughts.
 
@@ -21,6 +21,7 @@ I blog about my experiences [here]({{site.url}}/blog.html).
 ## Updates
 
 <!-- <div style="height:250px;overflow:auto;"> -->
+* **August 2022**: Joined GeorgiaTech for a Master's in CS!
 * **June 2022**: Presented Stage 2 of my Dual-Degree Project titled _Assessing Comprehensibility of Children's Read Speech_. Report available in [Projects]({{site.url}}/projects.html) section.
 * **April 2022**: Accepted an offer from GeorgiaTech for a Master's in Computer Science!
 * **January 2022**: Our work on *Deep Learning for Prominence Detection in Children’s Read Speech* got accepted at ICASSP 2022!

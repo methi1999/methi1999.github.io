@@ -7,21 +7,21 @@ permalink: /about
 
 Hello there! My name is Mithilesh Vaidya.
 
-I’m a final year dual-degree student in the Electrical Engineering department at IIT Bombay. I plan to use this website as a medium for sharing my projects and other random thoughts.
+I’m a first year Master's student in the College of Computing at Georgia Institute of Technology, USA.
+I graduated with a dual degree (B.Tech + M.Tech) in Electrical Engineering from IIT Bombay, India.
+
+I plan to use this website as a medium for sharing my projects and other random thoughts.
 
 I was part of Autonise AI, a small group of machine learning enthusiasts during my sophomore year.
-We worked on 2 projects:
-* Semantic Segmentation
-* Text Detection and Recognition
 
 In the summer of 2020, I interned at APT Portfolio, a high-frequency trading firm.
 
-I am a part of the [Digital Audio Processing lab](https://www.ee.iitb.ac.in/student/~daplab/) at IIT Bombay.
-I am working with [Prof. Preeti Rao](https://www.ee.iitb.ac.in/web/people/faculty/home/prao) on processing
-children's speech using deep learning techniques. I am especially interested in extracting **prosodic** features for
+During my stay at IIT Bombay, I was a part of the [Digital Audio Processing lab](https://www.ee.iitb.ac.in/student/~daplab/) at IIT Bombay.
+I worked with [Prof. Preeti Rao](https://www.ee.iitb.ac.in/web/people/faculty/home/prao) on processing
+children's speech using deep learning techniques. I mianly worked on modelling speech **prosody** for 
 tasks such as **oral reading fluency assessment** and prosodic event detection (**prominence** and **phrase boundary**).
 
-I serve on the Editorial Board of [Insight](https://www.insightiitb.org), IIT Bombay's student media body.
+I also served on the Editorial Board of [Insight](https://www.insightiitb.org), IIT Bombay's student media body.
 
 In my free time, I enjoy reading [books]({{site.url}}/books) and playing [tennis]({{site.url}}/tennis).
 
