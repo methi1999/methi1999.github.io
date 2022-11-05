@@ -21,6 +21,9 @@ I blog about my experiences [here]({{site.url}}/blog.html).
 ## Updates
 
 <!-- <div style="height:250px;overflow:auto;"> -->
+* **November 2022**: Gave a short presentation on Stable Diffusion. Slides can be accessed [here]({{site.url}}/assets/pdf/sd_ppt.pdf).
+* **August 2022**: Joined [BRAINML@GT](https://sites.google.com/view/brainml/home) and started working with Prof. Anqi Wu
+on disentanglement of latent variables in VAEs  
 * **August 2022**: Joined GeorgiaTech for a Master's in CS!
 * **June 2022**: Presented Stage 2 of my Dual-Degree Project titled _Assessing Comprehensibility of Children's Read Speech_. Report available in [Projects]({{site.url}}/projects.html) section.
 * **April 2022**: Accepted an offer from GeorgiaTech for a Master's in Computer Science!
