@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /
+tags: stable diffusion, diffusion, neuroscience, georgiatech, wav2vec, oral reading fluency, prosody, insight, apt portfolio, hardware internship
 ---
 {% include JB/setup %}
 
