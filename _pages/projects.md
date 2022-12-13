@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects
 ---
 
-### Research Projects
+## Research Projects
 
 * Dual-Degree Project (Stage 2): Assessing Comprehensibility of Children's Read Speech 
   [[presentation]]({{ site.url }}/assets/pdf/ddp2_ppt.pptx) [[report]]({{ site.url }}/assets/pdf/ddp2_report.pdf)
@@ -21,7 +21,17 @@ permalink: /projects
 * SIRD model for studying outbreak of infectious diseases  
   [[report]]({{ site.url }}/assets/pdf/sre_sird.pdf) [[code]](https://github.com/methi1999/SIRD-model)
 
-### Course projects
+## Course projects
+
+### GeorgiaTech
+
+* CSE6242: Data and Visual Analytics - End-to-end meal planning app with time and nutrition constraints
+  [[poster]]({{ site.url }}/assets/pdf/cse6242_poster.pdf) [[report]]({{ site.url }}/assets/pdf/cse6242_report.pdf)
+
+* CS8803: Dynamic Algebraic Algorithms - Implementation of Dynamic All-Pairs Reachability 
+  [[report]]({{ site.url }}/assets/pdf/cs8803_daa.pdf)
+
+### IIT Bombay
 
 * EE708: Information Theory and Coding - Communication with Noiseless Feedback (Schalkwijk and Kailath coding scheme, 1966)  
   [[presentation]]({{ site.url }}/assets/pdf/ee708_ppt.pdf)
@@ -54,7 +64,7 @@ permalink: /projects
   [[report]]({{ site.url }}/assets/pdf/bandit_report.pdf) [[code]](https://github.com/methi1999/dueling-bandits)
 
 
-### Miscellaneous
+## Miscellaneous
 
 * [Keyword Spotting]({{ site.url }}/projects/kws)
 * [Hangman]({{ site.url }}/projects/hangman)

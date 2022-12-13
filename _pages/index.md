@@ -29,7 +29,7 @@ on disentanglement of latent variables in VAEs
 * **June 2022**: Presented Stage 2 of my Dual-Degree Project titled _Assessing Comprehensibility of Children's Read Speech_. Report available in [Projects]({{site.url}}/projects.html) section.
 * **April 2022**: Accepted an offer from GeorgiaTech for a Master's in Computer Science!
 * **January 2022**: Our work on *Deep Learning for Prominence Detection in Children’s Read Speech* got accepted at ICASSP 2022!
-* **January 2022**: Gave a [talk]({{site.url}}/assets/pdf/dap_wav2vec.pdf) on Wav2vec 2.0 as part of DAP lab at IIT Bombay.
+* **January 2022**: Gave a [presentation]({{site.url}}/assets/pdf/dap_wav2vec.pdf) on Wav2vec 2.0 as part of DAP lab at IIT Bombay.
 * **October 2021**: Presented Stage 1 of my Dual-Degree Project titled _Deep Learning for Prominence Detection in Children’s Read Speech_. Report available in [Projects]({{site.url}}/projects.html) section. 
 * **October 2021**: Submitted our work on *Deep Learning for Prominence Detection in Children’s Read Speech* to ICASSP 2022. Preprint available on [arXiv](https://arxiv.org/abs/2110.14273).
 * **March 2021**: Started my tenure as an Editorial Board Member for [Insight](https://www.insightiitb.org),
