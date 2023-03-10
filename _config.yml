@@ -30,12 +30,10 @@ plugins:
   - jekyll-seo-tag
 
 # Google services
-google_analytics: UA-172062065-1
+google_analytics: G-30BTC4BS67
 
 #theme
 theme: jekyll-theme-minimal
 
 #allow future dates
 future: true
-
-comments: true
