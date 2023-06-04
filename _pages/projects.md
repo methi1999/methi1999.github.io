@@ -25,10 +25,13 @@ permalink: /projects
 
 ### GeorgiaTech
 
-* CSE6242: Data and Visual Analytics - End-to-end meal planning app with time and nutrition constraints
+* CS6245: Parallelizing Compilers - Speeding Up Capsules  
+  [[report]]({{ site.url }}/assets/pdf/cs6245_report.pdf)
+
+* CSE6242: Data and Visual Analytics - End-to-end meal planning app with time and nutrition constraints    
   [[poster]]({{ site.url }}/assets/pdf/cse6242_poster.pdf) [[report]]({{ site.url }}/assets/pdf/cse6242_report.pdf)
 
-* CS8803: Dynamic Algebraic Algorithms - Implementation of Dynamic All-Pairs Reachability 
+* CS8803: Dynamic Algebraic Algorithms - Implementation of Dynamic All-Pairs Reachability  
   [[report]]({{ site.url }}/assets/pdf/cs8803_daa.pdf)
 
 ### IIT Bombay

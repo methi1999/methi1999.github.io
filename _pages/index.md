@@ -22,6 +22,7 @@ I blog about my experiences [here]({{site.url}}/blog.html).
 ## Updates
 
 <!-- <div style="height:250px;overflow:auto;"> -->
+* **March 2022**: Gave a short presentation on In-Context Learning. Slides can be accessed [here]({{site.url}}/assets/pdf/icl.pdf).
 * **November 2022**: Gave a short presentation on Stable Diffusion. Slides can be accessed [here]({{site.url}}/assets/pdf/sd_ppt.pdf).
 * **August 2022**: Joined [BRAINML@GT](https://sites.google.com/view/brainml/home) and started working with Prof. Anqi Wu
 on disentanglement of latent variables in VAEs  
