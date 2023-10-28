@@ -22,6 +22,8 @@ I blog about my experiences [here]({{site.url}}/blog.html).
 ## Updates
 
 <!-- <div style="height:250px;overflow:auto;"> -->
+* **October 2023**: Gave a short presentation on Anthropic's [amazing work](https://transformer-circuits.pub/2023/monosemantic-features/index.html) on Monosemanticity. Slides can be accessed [here](https://docs.google.com/presentation/d/1N6F2v2EyTmzsew5ceN0To3Q09e3p1boRJDJJfJ4qAFM/edit?usp=sharing).
+* **August 2023**: Completed a 3-month internship at Qualcomm!
 * **March 2023**: Gave a short presentation on In-Context Learning. Slides can be accessed [here]({{site.url}}/assets/pdf/icl.pdf).
 * **November 2022**: Gave a short presentation on Stable Diffusion. Slides can be accessed [here]({{site.url}}/assets/pdf/sd_ppt.pdf).
 * **August 2022**: Joined [BRAINML@GT](https://sites.google.com/view/brainml/home) and started working with Prof. Anqi Wu
