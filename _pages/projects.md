@@ -25,6 +25,12 @@ permalink: /projects
 
 ### GeorgiaTech
 
+* CS8803: Logic for Computer Science - Proposal for quantitative Semantics in DIRL framework  
+  [[presentation]]({{ site.url }}/assets/pdf/cs8803_ppt.pdf)
+
+* CS7641: Machine Learning - Diabetes Prediction  
+  [[report]]({{ site.url }}/assets/pdf/cs7641_report.pdf)
+
 * CS6245: Parallelizing Compilers - Speeding Up Capsules  
   [[report]]({{ site.url }}/assets/pdf/cs6245_report.pdf)
 
