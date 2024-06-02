@@ -7,7 +7,7 @@ permalink: /projects
 ## Research Projects
 
 * Dual-Degree Project (Stage 2): Assessing Comprehensibility of Children's Read Speech 
-  [[presentation]]({{ site.url }}/assets/pdf/ddp2_ppt.pptx) [[report]]({{ site.url }}/assets/pdf/ddp2_report.pdf)
+  [[presentation]]({{ site.url }}/assets/pdf/ddp2_ppt.pptx) [[report]]({{ site.url }}/assets/pdf/ddp2_report.pdf) [[paper]](https://arxiv.org/abs/2405.19426)
 
 * Dual-Degree Project (Stage 1): Deep Learning for Prominence Detection in Children’s Read Speech (based on waveform segments)  
   [[presentation]]({{ site.url }}/assets/pdf/ddp1_ppt.pptx) [[report]]({{ site.url }}/assets/pdf/ddp1_report.pdf) [[paper]](https://ieeexplore.ieee.org/abstract/document/9747780)
@@ -24,6 +24,9 @@ permalink: /projects
 ## Course projects
 
 ### GeorgiaTech
+
+* CS8803: Systems for AI: LLMs - WhichLoRA: A Framework for Automatic LoRA Selection  
+  [[report]]({{ site.url }}/assets/pdf/cs8803_whichlora.pdf)
 
 * CS8803: Logic for Computer Science - Proposal for quantitative Semantics in DIRL framework  
   [[presentation]]({{ site.url }}/assets/pdf/cs8803_ppt.pdf)

@@ -7,8 +7,10 @@ permalink: /about
 
 Hello there! My name is Mithilesh Vaidya.
 
-I’m a second year Master's student in the College of Computing at Georgia Institute of Technology, USA.
-I graduated with a dual degree (B.Tech + M.Tech) in Electrical Engineering from IIT Bombay, India.
+I am an AI Researcher at Descript.
+
+I recently graduated with a Master's in Computer Science from GeorgiaTech.
+Previously, I finished my dual degree (B.Tech + M.Tech) in Electrical Engineering at IIT Bombay, India.
 
 I plan to use this website as a medium for sharing my projects and other random thoughts.
 
@@ -20,6 +22,8 @@ During my stay at IIT Bombay, I was a part of the [Digital Audio Processing lab]
 I worked with [Prof. Preeti Rao](https://www.ee.iitb.ac.in/web/people/faculty/home/prao) on processing
 children's speech using deep learning techniques. I mainly worked on modelling speech **prosody** for 
 tasks such as **oral reading fluency assessment** and prosodic event detection (**prominence** and **phrase boundary**).
+
+At GeorgiaTech, I worked with [Prof. Anqi Wu](https://sites.google.com/view/brainml/home) on switching subspace models for neural spike data.
 
 I also served on the Editorial Board of [Insight](https://www.insightiitb.org), IIT Bombay's student media body.
 
