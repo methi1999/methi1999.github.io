@@ -24,7 +24,7 @@ I blog about my experiences [here]({{site.url}}/blog.html).
 ## Updates
 
 <!-- <div style="height:250px;overflow:auto;"> -->
-* **August 2024**: Joined Descript as an AI Researcher!
+* **June 2024**: Joined Descript as an AI Researcher!
 * **May 2024**: Graduated with a Master's in Computer Science from GeorgiaTech!
 * **October 2023**: Gave a short presentation on Anthropic's [amazing work](https://transformer-circuits.pub/2023/monosemantic-features/index.html) on Monosemanticity. Slides can be accessed [here](https://docs.google.com/presentation/d/1N6F2v2EyTmzsew5ceN0To3Q09e3p1boRJDJJfJ4qAFM/edit?usp=sharing).
 * **August 2023**: Completed a 3-month internship at Qualcomm!
