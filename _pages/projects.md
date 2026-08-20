@@ -4,26 +4,7 @@ title: Projects
 permalink: /projects
 ---
 
-## Research Projects
-
-* Dual-Degree Project (Stage 2): Assessing Comprehensibility of Children's Read Speech 
-  [[presentation]]({{ site.url }}/assets/pdf/ddp2_ppt.pptx) [[report]]({{ site.url }}/assets/pdf/ddp2_report.pdf) [[paper]](https://arxiv.org/abs/2405.19426)
-
-* Dual-Degree Project (Stage 1): Deep Learning for Prominence Detection in Children’s Read Speech (based on waveform segments)  
-  [[presentation]]({{ site.url }}/assets/pdf/ddp1_ppt.pptx) [[report]]({{ site.url }}/assets/pdf/ddp1_report.pdf) [[paper]](https://ieeexplore.ieee.org/abstract/document/9747780)
-
-* Character Animation from Video in Blender  
-  [[presentation]](https://docs.google.com/presentation/d/1TEVYZGPMrn5LLypoGjDc5QhWAy3K8PVQNFJfoFA-RS4/edit?usp=sharing) [[report]]({{ site.url }}/assets/pdf/hpr_report.pdf)
-
-* Deep Learning for Prominence Detection in Children’s Read Speech (based on acoustic contours)  
-  [[presentation]]({{ site.url }}/assets/pdf/rnd_ppt.pdf) [[report]]({{ site.url }}/assets/pdf/rnd_report.pdf) [[arXiv]](https://arxiv.org/abs/2104.05488)
-
-* SIRD model for studying outbreak of infectious diseases  
-  [[report]]({{ site.url }}/assets/pdf/sre_sird.pdf) [[code]](https://github.com/methi1999/SIRD-model)
-
-## Course projects
-
-### GeorgiaTech
+## GeorgiaTech
 
 * CS8803: Systems for AI: LLMs - WhichLoRA: A Framework for Automatic LoRA Selection  
   [[report]]({{ site.url }}/assets/pdf/cs8803_whichlora.pdf)
@@ -43,7 +24,7 @@ permalink: /projects
 * CS8803: Dynamic Algebraic Algorithms - Implementation of Dynamic All-Pairs Reachability  
   [[report]]({{ site.url }}/assets/pdf/cs8803_daa.pdf)
 
-### IIT Bombay
+## IIT Bombay
 
 * EE708: Information Theory and Coding - Communication with Noiseless Feedback (Schalkwijk and Kailath coding scheme, 1966)  
   [[presentation]]({{ site.url }}/assets/pdf/ee708_ppt.pdf)
@@ -75,8 +56,7 @@ permalink: /projects
 * IE613: Online Learning - A study of Duelling Bandits  
   [[report]]({{ site.url }}/assets/pdf/bandit_report.pdf) [[code]](https://github.com/methi1999/dueling-bandits)
 
-
-## Miscellaneous
+## Misc
 
 * [Keyword Spotting]({{ site.url }}/projects/kws)
 * [Hangman]({{ site.url }}/projects/hangman)
