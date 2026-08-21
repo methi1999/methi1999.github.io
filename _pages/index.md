@@ -5,6 +5,7 @@ tags: stable diffusion, diffusion, neuroscience, georgiatech, wav2vec, oral read
 ---
 {% include JB/setup %}
 
+<div class="home-intro" markdown="1">
 <img style="float: right; width: 35%; padding: 5px;" src="{{ site.url }}/assets/img/profile.jpg" alt="Mithilesh Vaidya">
 
 Hello there! My name is Mithilesh Vaidya.
@@ -18,6 +19,7 @@ I plan to use this website as a medium for sharing my projects and other random 
 If in a hurry, you can have a look at my [CV]({{ site.url }}/assets/pdf/cv.pdf) or [Resume]({{ site.url }}/assets/pdf/resume.pdf).
 
 I blog about my experiences [here]({{ site.url }}/blog.html).
+</div>
 
 ## Updates
 

@@ -1,9 +1,23 @@
+.home-intro {
+    overflow: auto;
+    margin-bottom: $spacing-unit / 3;
+
+    > p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.home-intro + h2 {
+    margin-top: $spacing-unit / 2;
+}
+
 .updates-scroll {
     max-height: 280px;
     overflow-y: auto;
     border: 1px solid $grey-color-light;
     border-radius: 6px;
     padding: 12px 16px;
+    margin-top: 0;
     margin-bottom: $spacing-unit;
     background: #fff;
 }
@@ -31,6 +45,7 @@
     font-size: 14px;
     color: $grey-color-dark;
     text-align: right;
+    font-variant-numeric: tabular-nums;
 }
 
 .updates-text {
