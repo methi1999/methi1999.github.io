@@ -3,3 +3,14 @@ _site
 .jekyll-metadata
 .jekyll-cache
 .idea
+
+# LaTeX build artifacts
+latex/*.aux
+latex/*.log
+latex/*.out
+latex/*.toc
+latex/*.fls
+latex/*.fdb_latexmk
+latex/*.synctex.gz
+latex/*.pdf
+latex/*.out

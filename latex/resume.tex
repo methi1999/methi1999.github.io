@@ -1,0 +1,300 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,letterpaper,sans]{moderncv}
+% nosymbols: no FontAwesome. mixedrules (default): native banking section underlines
+\moderncvstyle[nosymbols]{banking}
+\moderncvcolor{blue}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=color1, linkcolor=color1}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in, top=0.4in, bottom=0.32in]{geometry}
+\usepackage{amsmath}
+\providecommand{\sl}{\slshape}
+\AtBeginDocument{\microtypesetup{expansion=false}}
+\pagestyle{empty}
+\nopagenumbers{}
+% Banking fades the first name; keep both parts the same blue.
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\colorlet{addresscolor}{color1}
+\renewcommand*{\emailsymbol}{}
+\renewcommand*{\homepagesymbol}{}
+\renewcommand*{\sectionfont}{\sffamily\Large\bfseries\upshape}
+\makeatletter
+% Header adds 2.5em after the name when there is no quote. Shrinking that gap
+% here avoids the old \vspace{-40pt} hack that overlapped the first section.
+\renewcommand*{\makecvhead}{%
+  \recomputecvlengths
+  \makehead
+  \vspace{0.55em}%
+  \par}
+\RenewDocumentCommand{\section}{sm}{%
+  \par\addvspace{1.35ex}%
+  \phantomsection{}%
+  \addcontentsline{toc}{section}{#2}%
+  \strut\sectionstyle{#2}%
+  \sectionrule
+  \par\nobreak\addvspace{0.45ex}\@afterheading}
+\AtBeginDocument{%
+  \renewcommand{\rmdefault}{\sfdefault}%
+  \renewcommand{\familydefault}{\sfdefault}%
+  \normalfont\sffamily
+  \colorlet{firstnamecolor}{color1}%
+  \colorlet{lastnamecolor}{color1}}
+\makeatother
+% personal data
+\name{Mithilesh}{Vaidya}
+% \title{Curriculum Vitae}
+% \title{Resume}                              % optional, remove / comment the line if not wanted
+%\address{my address, line 1, line 2, line 3, postcode}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+44 12345 12345}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+  
+\email{mithilesh.vaidya@gatech.edu}                               % optional, remove / comment the line if not wanted
+\homepage{methi1999.github.io}                       % optional, remove / comment the line if not wanted
+\phone[Phone]{+1-425-900-7799}
+% \extrainfo{+1 425-900-7799}
+\extrainfo{\href{https://www.linkedin.com/in/mithileshvaidya/}{LinkedIn}}
+% \extrainfo{\textbf{Final year student at IIT Bombay | User ID: mithilesh.vaidya@iitb.ac.in}}
+% \extrainfo{\textbf{Final year student at IIT Bombay}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+\begin{document}
+\renewcommand{\labelitemi}{$\bullet$}
+\renewcommand{\itemhook}{\setlength{\topsep}{0pt}\setlength{\partopsep}{0pt}\setlength{\parsep}{0pt}\setlength{\itemsep}{0pt}}
+\makecvtitle
+\enlargethispage{6\baselineskip}
+%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%
+% \section{\textsc{Research Interests}}
+% Machine Learning, Speech Processing, Prosody
+%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%
+\section{Education}
+\begin{itemize}
+\item \textbf{Georgia Institute of Technology}, Atlanta, USA \hfill{[2022 - 2024]}
+\begin{itemize}
+    \item Master's in Computer Science (Specialisation: Machine Learning)
+\end{itemize}
+\item \textbf{Indian Institute of Technology Bombay}, Mumbai, India \hfill{[2017 - 2022]}
+\begin{itemize}
+    \item B.Tech+M.Tech in Electrical Engineering (\textbf{CPI 9.52/10}) with a Minor in Computer Science and Engineering
+\end{itemize}
+\end{itemize}
+\vspace{-2pt}
+%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%
+\section{Professional Experience}
+\begin{itemize}
+\item \textbf{AI Researcher} \hfill{\sl June'24 - Present}\\
+\textit{\href{https://www.descript.com/research}{Descript}, San Francisco} \hfill {\sl Research Engineer}\\
+\vspace{-6pt}
+\begin{itemize}
+\item Co-led \textbf{Audio Regenerate}, a latent-inpainting model for seamless word-level audio editing, by training a continuous neural codec and a flow-matching generator
+\item Developed \textbf{Video Regenerate}, an audio-driven lip-sync model for video editing and translation, and a contrastive model for audio-video alignment
+\item Co-authored \textbf{PoDAR}, a power-disentangled audio representation that accelerates generator convergence by $\mathbf{2\times}$
+\end{itemize}
+\item \textbf{LLM-powered Natural Language Interface} \hfill{\sl May'23 - Aug'23}\\
+\textit{Qualcomm, San Diego | Guide: Mr. Vasudev Nayak, Principal Engineer} \hfill {\sl Machine Learning Internship}\\
+\vspace{-6pt}
+\begin{itemize}
+\item Designed an end-to-end hierarchical modular pipeline for structured parsing using LLMs such as MPT-7B
+\item Developed techniques for reducing bias and hallucinations and compared performance across various open-source LLMs
+\item Evaluated performance of NVIDIA Nemo and OpenAI Whisper for STT and machine translation
+\end{itemize}
+% \vspace{5pt}
+%%%%%%%%%%%%%%%
+\item \textbf{Verification of FPGA-based High Frequency Trading Platform} \hfill{\sl Apr'20 - June'20}\\
+\textit{APT Portfolio Pvt. Ltd. | Guide: Mr. Vivek Pannikar, Senior Verification Engineer} \hfill {\sl Hardware Engineering Internship}\\
+\vspace{-6pt}
+\begin{itemize}
+\item Implemented \textbf{Direct Progamming Interface}, a protocol for exchanging data between SystemVerilog and C, for \textbf{speeding up verification} of testbenches using Cocotb, Quartus and Riviera by \textbf{3x}
+\item Used Python \textbf{metaclasses} for automatically generating Python, SystemVerilog and C DPI header \\ and implementation files from high-level JSON inputs
+% \item \textbf{Speeded} up verification of certain transaction types by \textbf{upto 3x}
+\end{itemize}
+% \vspace{5pt}
+%%%%%%%%%%%%%%%
+\item \textbf{Autonise AI} \hfill{\sl Sep'18 - May'19}\\
+\textit{Machine Learning Startup} \hfill {\sl Co-Founder}\\
+\vspace{-6pt}
+\begin{itemize}
+\item Delivered an \textbf{end-to-end solution} consisting of an annotation tool for labelling datasets, a UNet-based model for \textbf{segmenting} out spots, patches and wrinkles in facial images and an AWS API for demonstrating the model
+\item Implemented \textbf{PixelLink} and a GRU for word-level text detection, \textbf{invariant} to font size, colour, background, orientation, etc. and presented it to HDFC bank for automatic field extraction from documents like Aadhar Card, Passport, Driving Licence, etc.
+\end{itemize}
+\end{itemize}
+\vspace{-2pt}
+%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%
+\section{Projects and Publications}
+\begin{itemize}
+\item \textbf{Prominence Detection and Oral Reading Fluency of Children's Read Speech} \hfill{\sl  June'21 - June'22}\\
+\textit{Guide: Prof. Preeti Rao, IIT Bombay | \href{https://arxiv.org/abs/2110.14273}{arXiv:2110.14273}} \hfill{\sl Master's Thesis}\\
+\vspace{-6pt}
+\begin{itemize}
+\item Replaced a Random Forest Classifier baseline with a \textbf{CRNN} framework and Sinc convolution \\ for predicting the degree of prominence for each word in children’s read speech
+\item Exploited phrase boundary labels in various \textbf{multi-task learning} paradigms and POS tags and BERT embeddings for incorporating complementary lexical information
+\item Implemented a \textbf{Wav2vec2.0}-based end-to-end model for oral reading fluency assessment and outperformed RFC baseline operating on hand-crafted features by \textbf{0.06} (absolute Pearson)
+% \item \textbf{Probed} the internal representations for presence of knowledge-based features using linear and MLP probes
+% \item \textbf{Prominence Detection in Children's Read Speech \href{https://ieeexplore.ieee.org/document/9747780}{[Published at ICASSP 2022]}} \hfill{\sl  June'21 - Oct'21}\\
+% \textit{Guide: Prof. Preeti Rao, IIT Bombay} \hfill{\sl  Thesis I}\\
+% \vspace{-6pt}
+% \begin{itemize}
+% \item Replaced a Random Forest Classifier baseline with a \textbf{CRNN} framework for predicting the degree \\ of prominence for each word in children’s read speech
+% \item Demonstrated an improvement in the acoustic features extracted from word segments using Sinc convolution
+% \item Exploited phrase boundary labels in various \textbf{multi-task learning} paradigms
+% \item Used part-of-speech tags and \textbf{NLP} embeddings such as \textbf{BERT} for incorporating complementary lexical information
+% \end{itemize}
+% % \vspace{5pt}
+% \item \textbf{Deep Learning for Assessment of Oral Reading Fluency \href{https://methi1999.github.io/assets/pdf/ncc_submission.pdf}{[Submitted to NCC 2023]}} \hfill{\sl  Oct'21 - June'22}\\
+% \textit{Guide: Prof. Preeti Rao, IIT Bombay} \hfill{\sl  Thesis II}\\
+% \vspace{-6pt}
+% \begin{itemize}
+% \item Implemented a \textbf{Wav2vec2.0}-based end-to-end model for oral reading fluency assessment
+% \item Outperformed RFC baseline operating on hand-crafted features by \textbf{0.06} (absolute Pearson)
+% \item \textbf{Probed} the internal representations for presence of knowledge-based features using linear and MLP probes
+% \item Concatenated hand-crafted features at various hierarchies to further improve performance
+% \item Implemented a multi-task learning framework for exploiting hand-crafted features during training
+% \item Proposed a \textbf{self-supervised learning framework} for utilising an unlabelled dataset
+\end{itemize}
+% \vspace{5pt}
+\item \textbf{\href{https://methi1999.github.io/assets/pdf/switching_subspace_model_neurips.pdf}{\textcolor{color0}{Switching Subspace Model for Neural Population Analysis}}} \hfill{\sl Sep'22 - May'24}\\
+\textit{Guide: Prof. Anqi Wu, GeorgiaTech} \hfill{\sl Research project}\\
+\vspace{-6pt}
+\begin{itemize}
+\item Developed a sequential VAE to capture multiple latent dynamics and introduced a unimodal Gaussian Process prior for interpretability
+\end{itemize}
+\end{itemize}
+\vspace{-2pt}
+%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%
+\section{Honors and Awards}
+\begin{itemize}
+\item \textbf{Institute Silver Medal} at IIT Bombay for best academic standing in department \textbf{(2/70)} \hfill{\small [2022]}
+% \item \textbf{Excellence in Academics} Award, for excellent academic performance (Top 3/121) \hfill{\small [2022]}
+\item \textbf{Undergraduate Research Award} (URA03) at IIT Bombay for outstanding thesis contributions \hfill{\small [2022]}
+% \item \textbf{AP grade} in \textbf{Control Systems} course for \textbf{exceptional performance} \hfill{\small [2020]}
+% \item \textbf{All India Rank of 388} in JEE Advanced 2017 among 2,00,000 candidates \hfill {\small [2017]}
+\item \textbf{Institute Special Mention} for Journalism carried out as part of Insight, IIT Bombay's student media body \hfill {\small [2022]}
+% \item \textbf{JN Tata} Scholarship for pursuing higher education abroad\hfill {\small[2022]}
+% \item Awarded Certificate of Merit for being among the state \textbf{top 1\%} in \textbf{NSEA} and \textbf{NSEP}, \\organised by India Association of Physics Teachers \hfill{\small [2016]}
+% \item \textbf{Kishore Vaigyanik Protsahan Yojana (KVPY)} Fellowship by Govt. of India \hfill{\small [2015]}
+% \item \textbf{National Talent Search Examination (NTSE)} scholarship by Govt. of India\hfill{\small [2015]}
+% \item \textbf{Silver medal} in Homi Bhabha Young Scientist Examination \hfill{\small [2011]}
+\end{itemize}
+\vspace{-2pt}
+%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%
+\section{Key Coursework}
+\begin{itemize}
+\item \textbf{Machine Learning:} Automatic Speech Recognition, Advanced ML, Foundations of Intelligent and Learning Agents
+\item \textbf{Computer Science:} Data Structures and Algorithms, Computer Graphics, Network Security, Operating Systems%, Non-Linear Optimization, Dynamic Algebraic Algorithms, Data and Visual Analytics
+\end{itemize}
+\vspace{-2pt}
+%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%
+\section{Technical Skills}
+\begin{itemize}
+\item \textbf{Programming:} Python, C++, C, Bash, OpenGL, SQLite, VHDL
+% \vspace{2pt}
+\item \textbf{Softwares/Libraries:} PyTorch, LangChain, MATLAB, Arduino, \LaTeX, Blender, AutoCad, Solidworks, Android Studio
+\end{itemize}
+%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%
+% \section{Teaching \& Extra-Curriculars}
+% \begin{itemize}
+% \item Teaching Assistant for EE679 (Speech Processing) and EE352 (Digital Signal Processing lab) at IIT Bombay
+% \item Awarded \textbf{Special Mention for Journalism} by IIT Bombay for work carried out as Editorial Board Member of Insight, IIT Bombay's student media body
+% % \item Department Academic Mentor for guiding sophomores in academic and extra-curricular activities
+% % \item National-level quarter-finalist at Bournvita Quiz Contest; appeared on \textbf{National TV} for the same
+% \end{itemize}
+\end{document}
+
+
+% %%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%
+% \section{Key Projects}
+% \begin{itemize}
+% \item \textbf{Legendre Memory Unit} \hfill{\sl Jan'21 - May'21}\\
+% \textit{Instructor: Prof. Sunita Sarawagi} \hfill{\sl Course Project: Advanced Machine Learning}\\
+% \vspace{-2pt}
+% \begin{itemize}
+% \item Implemented and analysed the performance of Legendre Memory Units (LMU), \textbf{an improved sequential model}, on various tasks and datasets such as JSB Chorales, Mackey-Glass dynamics, etc.
+% \item Suggested modifications to the \textbf{core equations} by studying various \textbf{basis} functions
+% \end{itemize}
+% \vspace{5pt}
+% %%%%%%%%%%%%%%%
+% \item \textbf{Audio Steganography} \hfill{\sl Jan'21 - May'21}\\
+% \textit{Instructor: Prof. Preethi Jyothi} \hfill{\sl Course Project: Automatic Speech Recognition}\\
+% \vspace{-2pt}
+% \begin{itemize}
+% \item Exploited \textbf{adversarial attacks} on ASR systems for hiding any given sequence of tokens in any audio file
+% \item Analysed performance as a function of various token sequence properties such as \textbf{length and perplexity}
+% \item Demonstrated \textbf{high PESQ scores} which indicate low perceptibility of deviation from original audio
+% \end{itemize}
+% \vspace{5pt}
+% %%%%%%%%%%%%%%%
+% \item \textbf{Video Toonification} \hfill{\sl Aug'20 - Dec'20}\\
+% \textit{Instructor: Prof. Ajit Rajwade \& Prof. Suyash Awate} \hfill{\sl Course Project: Digital Image Processing}\\
+% \vspace{-2pt}
+% \begin{itemize}
+% \item Used \textbf{Mean Shift Segmentation} across both time and spatial dimensions for toonification of videos
+% \item Benchmarked results with standard techniques such as Bilateral Filtering
+% \end{itemize}
+% \vspace{5pt}
+% %%%%%%%%%%%%%%%
+% \item \textbf{Auction Theory} \hfill{\sl Aug'20 - Dec'20}\\
+% \textit{Instructor: Prof. Ankur Kulkarni} \hfill{\sl Course Project: Game Theory}\\
+% \vspace{-2pt}
+
+% \begin{itemize}
+% \item Studied various models in Auction Theory such as \textbf{Vickrey Auction} and \textbf{First Price Sealed Bid} Auctions
+% % \item Discussed \textbf{equilibrium and optimal auction design} analysis
+% \end{itemize}
+% \vspace{5pt}
+% %%%%%%%%%%%%%%%
+% \item \textbf{FMX Rendering and Animation} \hfill{\sl Nov'20 - Dec'20}\\
+% \textit{Instructor: Prof. Parag Chaudhari} \hfill{\sl Course Project: Computer Graphics}\\
+% \vspace{-2pt}
+
+% \begin{itemize}
+% \item Designed and rendered an FMX track with obstacles of varying shapes such as \textbf{cylinders and ramps}
+% \item Designed, rendered and animated a rider and a motorbike on the track using \textbf{keyframing}
+% \item Employed \textbf{Phong Shading, Texture Mapping} and used a \textbf{Skybox} for a realistic look
+% \end{itemize}
+% \vspace{5pt}
+% %%%%%%%%%%%%%%%
+% \item \textbf{Pipelined RISC Processor} \hfill{\sl Oct'19 - Nov'19}\\
+% \textit{Instructor: Prof. Virendra Singh} \hfill{\sl Course Project: Microprocessors}\\
+% \vspace{-2pt}
+
+% \begin{itemize}
+% \item Designed a 16-bit, 8-register, 6-stage \textbf{Pipelined} RISC processor in VHDL
+% \item Tested it on an FPGA using a custom testbench covering all corner cases
+% \item Employed \textbf{Branch Prediction} and \textbf{Hazard Mitigation} techniques for optimizing the performance
+% \end{itemize}
+% \vspace{5pt}
+% %%%%%%%%%%%%%%%
+% \item \textbf{FindIt} \hfill{\sl May'19 - June'19}\\
+% \textit{Audio Fingerprinting} \hfill{\sl Self Project}\\
+% \vspace{-2pt}
+
+% \begin{itemize}
+% \item FindIt is a Python program for identifying a song given a \textbf{short noisy segment}, similar to Shazam
+% \item An \textbf{audio fingerprint} consisting of constellations of major time-frequency peaks is stored in a hash table
+% \item The music discovery program has \textbf{30+ stars} on GitHub
+% \end{itemize}
+% \end{itemize}
+% \vspace{-2pt}
+% %%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%
