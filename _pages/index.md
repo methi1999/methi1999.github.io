@@ -25,6 +25,7 @@ I blog about my experiences [here]({{ site.url }}/blog.html).
 
 <div class="updates-scroll">
 <ul class="updates-list">
+  <li><span class="updates-date">May 2026</span><span class="updates-text">Released <a href="https://arxiv.org/abs/2605.20476">ATS</a>, a training-free sampler for long-horizon video-to-video generation.</span></li>
   <li><span class="updates-date">May 2026</span><span class="updates-text">Submitted <a href="https://arxiv.org/abs/2605.10084">PoDAR</a> to NeurIPS 2026.</span></li>
   <li><span class="updates-date">Feb 2026</span><span class="updates-text">Co-led and shipped the new <a href="https://descriptinc.github.io/uvm-v2/">Audio Regenerate</a> feature in Descript, which allows seamless word-level audio editing via latent inpainting.</span></li>
   <li><span class="updates-date">Jan 2026</span><span class="updates-text"><a href="https://descriptinc.github.io/video-regenerate/">Video Regenerate</a> is finally out - give it a try in the Descript app!</span></li>
