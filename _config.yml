@@ -15,9 +15,16 @@ email: vaidya.mithilesh@gmail.com
 email2: mithilesh@descript.com
 description: An attempt to summarise my learnings in the field of Machine Learning and other interesting topics
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://methi1999.github.io" # the base hostname & protocol for your site
+url: "https://methi1999.github.io" # the base hostname & protocol for your site
 github_username:  methi1999
 linkedin_username: mithileshvaidya
+scholar_url: "https://scholar.google.com/citations?user=Z-whaN0AAAAJ"
+logo: /assets/img/profile.jpg
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/profile.jpg
 include: ['_pages']
 footer-links-active:
   stackoverflow: false

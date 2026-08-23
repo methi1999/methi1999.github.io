@@ -7,7 +7,7 @@ scripts:
   - /assets/js/applied-research.js
 ---
 
-I am an AI Researcher at [Descript](https://www.descript.com/research), working on generative models that power audio and video editing in production. My current focus spans audio codecs, diffusion models and audio-text forced alignment.
+I am an AI Researcher at [Descript](https://www.descript.com/research), working on generative models that power audio and video editing in production. My current focus spans audio codecs, diffusion models and audio-text forced alignment. A full list of papers is on [Google Scholar]({{ site.scholar_url }}).
 
 ## Applied Research
 
@@ -156,7 +156,7 @@ I am an AI Researcher at [Descript](https://www.descript.com/research), working 
   </div>
 </div>
 
-## Publications & Submissions
+## Publications & Submissions ([Google Scholar]({{ site.scholar_url }}))
 
 * **Goodbye Drift: Anchored Tree Sampling for Long-Horizon Video-to-Video Generation**  
   [[preprint]](https://arxiv.org/abs/2605.20476) [[project page]](https://descriptinc.github.io/ATS/) [[code]](https://github.com/descriptinc/ATS)

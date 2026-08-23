@@ -4,12 +4,11 @@
   <head>
     {% include head.html %}
     {% include mathjax.html %}
+    {% assign og_image = page.image | default: site.logo | default: '/assets/img/profile.jpg' %}
+    <meta content="{{ og_image | absolute_url }}" property="og:image" />
+    <meta content="{{ site.full_name }}" property="og:image:alt" />
+    <meta content="{{ og_image | absolute_url }}" name="twitter:image" />
     {% seo %}
-    {% if page.image %}
-      <meta content="{{ page.image }}" property="og:image" />
-    {% else %}
-      <meta content="https://avatars1.githubusercontent.com/u/31348707" property="og:image" />
-    {% endif %}
     {% feed_meta %}
     {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include analytics.html %}
