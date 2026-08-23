@@ -103,12 +103,12 @@
 \vspace{-10pt}
 %%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%
-\section{Publications and Pre-prints}
+\section{Publications and Preprints}
 \begin{itemize}
     \item A. Luebs, \textbf{Mithilesh Vaidya}, I. Kumar, S. Badam, S. W. Bailey, M. Bendel, J. Sotelo and X. He. ``PoDAR: Power-Disentangled Audio Representation for Generative Modeling.'' arXiv preprint \href{https://arxiv.org/abs/2605.10084}{arXiv:2605.10084} (2026).
-    \item \textbf{M. Vaidya}, C. Rodgers and A. Wu. ``\href{https://methi1999.github.io/assets/pdf/switching_subspace_model_neurips.pdf}{Switching Subspace Model for Neural Population Analysis}'' (2024).
+    % \item \textbf{M. Vaidya}, C. Rodgers and A. Wu. ``\href{https://methi1999.github.io/assets/pdf/switching_subspace_model_neurips.pdf}{Switching Subspace Model for Neural Population Analysis}'' (2024).
     \item \textbf{Vaidya, Mithilesh}, Binaya Kumar Sahoo, and Preeti Rao. ``Deep Learning for Assessment of Oral Reading Fluency.'' arXiv preprint \href{https://arxiv.org/abs/2405.19426}{arXiv:2405.19426} (2024).
-    \item \textbf{M. Vaidya}, K. Sabu and P. Rao. ``Deep Learning for Prominence Detection In Children's Read Speech.'' arXiv preprint \href{https://arxiv.org/abs/2110.14273}{arXiv:2110.14273} (2021).
+    \item \textbf{M. Vaidya}, K. Sabu and P. Rao. ``Deep Learning for Prominence Detection In Children's Read Speech.'' In Proc. \href{https://doi.org/10.1109/ICASSP43922.2022.9747780}{ICASSP}, pp. 8157--8161 (2022).
     \item Sabu, Kamini, \textbf{Mithilesh Vaidya}, and Preeti Rao. ``CNN Encoding of Acoustic Parameters for Prominence Detection.'' arXiv preprint \href{https://arxiv.org/abs/2104.05488}{arXiv:2104.05488} (2021).
 \end{itemize}
 \vspace{-10pt}
@@ -116,17 +116,18 @@
 %%%%%%%%%%%%%%%
 \section{Professional Experience}
 \begin{itemize}
-\item \textbf{AI Researcher} \hfill{\sl June'24 - Present}\\
-\textit{\href{https://www.descript.com/research}{Descript}, San Francisco} \hfill {\sl Research Engineer}\\
+\item \textbf{Audio/Video Generation and Understanding} \hfill{\sl June'24 - Present}\\
+\textit{\href{https://www.descript.com/research}{Descript}, San Francisco} \hfill {\sl AI Researcher}\\
 \vspace{-12pt}
 \begin{itemize}
-\item Co-led development of \href{https://descriptinc.github.io/uvm-v2/}{\textbf{Audio Regenerate}}, a production latent-inpainting system for seamless word-level audio editing in Descript
-\item Trained both stages of the Audio Regenerate pipeline: a continuous neural audio codec and a flow-matching generator for masked latent inpainting
-\item Developed \href{https://descriptinc.github.io/video-regenerate/}{\textbf{Video Regenerate}}, an audio-driven lip-sync model for video editing and translation, including a contrastive model for audio-video alignment
+\item Co-led development of \href{https://descriptinc.github.io/uvm-v2/}{\textbf{Audio Regenerate}}, a latent speech inpainting model consisiting of a continuous neural audio codec and a flow-matching generator, for masked latent inpainting; used for word-level audio editing in Descript
 \item Co-authored \href{https://arxiv.org/abs/2605.10084}{\textbf{PoDAR}}, a power-disentangled audio representation that improves latent modelability and accelerates generator convergence by $\mathbf{2\times}$
-\item Improved the data preprocessing pipeline for training generative video models on large-scale datasets
+\item Wrote a pipeline for large-scale distributed processing of raw videos to obtain datasets used in training \newline \href{https://descriptinc.github.io/video-regenerate/}{\textbf{Video Regenerate}}, an audio-driven lip-sync model for video editing and translation
+\item Worked on an improved audio-visual sync contrastive model for fixing frame-level audio-visual misalignment
+\item Currently working on a modern audio-text forced aligner for obtaining word-level timestamps
 \end{itemize}
 \end{itemize}
+\vspace{5pt}
 \begin{itemize}
 \item \textbf{LLM-powered Natural Language Interface} \hfill{\sl May'23 - Aug'23}\\
 \textit{Qualcomm, San Diego | Guide: Mr. Vasudev Nayak, Principal Engineer} \hfill {\sl Machine Learning Internship}\\
@@ -136,7 +137,8 @@
 \item Developed techniques for reducing hallucinations and compared performance across various open-source LLMs
 \item Evaluated performance of NVIDIA Nemo and OpenAI Whisper for STT and machine translation
 \end{itemize}
-\vspace{5pt}
+% \vspace{5pt}
+\newpage
 \item \textbf{Verification of FPGA-based High Frequency Trading Platform} \hfill{\sl Apr'20 - June'20}\\
 \textit{APT Portfolio Pvt. Ltd. | Guide: Mr. Vivek Pannikar, Senior Verification Engineer} \hfill {\sl Internship}\\
 \vspace{-10pt}
@@ -187,7 +189,7 @@
 \vspace{5pt}
 %%%%%%%%%%%%%%%%%
 \item \textbf{Prominence Detection in Children's Read Speech} \hfill{\sl  Jan'21 - Oct'21}\\
-\textit{Guide: Prof. Preeti Rao, IIT Bombay | \href{https://arxiv.org/abs/2110.14273}{arXiv:2110.14273}} \hfill {\sl Master's Thesis I}\\
+\textit{Guide: Prof. Preeti Rao, IIT Bombay | \href{https://doi.org/10.1109/ICASSP43922.2022.9747780}{ICASSP}} \hfill {\sl Master's Thesis I}\\
 \vspace{-10pt}
 \begin{itemize}
 \item Replaced a Random Forest Classifier baseline with a \textbf{CRNN} framework for predicting the degree of prominence for each word in children’s read speech
@@ -216,15 +218,6 @@
 \item Simulated the model with various underlying \textbf{network topologies} in place of random mixing
 \item Formulated multiple mathematical models for calculation of \textbf{precise dynamics}
 \end{itemize}
-%%%%%%%%%%%%%%%
-% \item \textbf{Keyword Spotting} \hfill{\sl  June'19 - June'20}\\
-% \textit{Guide: Prof. Preeti Rao, IIT Bombay} \hfill{\sl Research Project}\\
-% \vspace{-10pt}
-% \begin{itemize}
-% \item Trained various deep architectures on MFCC features for spotting a keyword in an audio file
-% \item Experimented with triplet loss for low-resource setting
-% \item hoishdohs
-% \end{itemize}
 
 \end{itemize}
 \vspace{-10pt}

@@ -6,4 +6,4 @@ $aux_dir = '.';
 
 $ENV{'TEXINPUTS'} = './moderncv//:' . ($ENV{'TEXINPUTS'} // '');
 
-$success_cmd = 'mkdir -p ../assets/pdf && cp -f %D ../assets/pdf/%R.pdf';
+$success_cmd = 'mkdir -p ../assets/pdf && cp -f %R.pdf ../assets/pdf/%R.pdf';
