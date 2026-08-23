@@ -156,7 +156,7 @@ I am an AI Researcher at [Descript](https://www.descript.com/research), working 
   </div>
 </div>
 
-## Publications & Submissions ([Google Scholar]({{ site.scholar_url }}))
+## Publications & Submissions
 
 * **Goodbye Drift: Anchored Tree Sampling for Long-Horizon Video-to-Video Generation**  
   [[preprint]](https://arxiv.org/abs/2605.20476) [[project page]](https://descriptinc.github.io/ATS/) [[code]](https://github.com/descriptinc/ATS)
