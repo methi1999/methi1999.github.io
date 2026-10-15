@@ -174,36 +174,15 @@
     height: auto;
 }
 
-$align-dur: 8s;
-
-.applied .alignfig__label,
-.applied .alignfig__word,
-.applied .alignfig__bound,
-.applied .alignfig__pill-label {
-    opacity: 0;
-    animation-duration: $align-dur;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-}
-
 .applied .alignfig__label {
     fill: var(--ink-soft);
     font-family: inherit;
 }
 
-.applied .alignfig__label--tx { animation-name: af-tx-label; }
-.applied .alignfig__label--audio { animation-name: af-audio-label; }
-.applied .alignfig__label--align { animation-name: af-align-label; }
-
 .applied .alignfig__word {
     fill: var(--ink);
     font-family: inherit;
 }
-
-.applied .alignfig__word--1 { animation-name: af-word-1; }
-.applied .alignfig__word--2 { animation-name: af-word-2; }
-.applied .alignfig__word--3 { animation-name: af-word-3; }
 
 .applied .alignfig__bound {
     stroke: var(--rec-red-dk);
@@ -211,158 +190,20 @@ $align-dur: 8s;
     stroke-dasharray: 3 3;
 }
 
-.applied .alignfig__bound--1 { animation-name: af-bound-1; }
-.applied .alignfig__bound--2 { animation-name: af-bound-2; }
-.applied .alignfig__bound--3,
-.applied .alignfig__bound--4 { animation-name: af-bound-3; }
-
-.applied .alignfig__wave {
-    stroke: var(--edit-maroon);
-    stroke-width: 1.4;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+.applied .alignfig__wave rect {
+    fill: var(--edit-maroon);
 }
 
-.applied .alignfig__wipe,
-.applied .alignfig__pill-box {
-    transform-box: fill-box;
-    transform-origin: left center;
-    transform: scaleX(0);
-    animation-duration: $align-dur;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-}
-
-.applied .alignfig__wipe { animation-name: af-wipe; }
-
-.applied .alignfig__pill-box {
+.applied .alignfig__box {
     fill: #fff;
     stroke: var(--edit-maroon);
     stroke-width: 1.25;
-    vector-effect: non-scaling-stroke;
+    stroke-linejoin: round;
 }
 
-.applied .alignfig__pill-box--1 { animation-name: af-pill-1; }
-.applied .alignfig__pill-box--2 { animation-name: af-pill-2; }
-.applied .alignfig__pill-box--3 { animation-name: af-pill-3; }
-
-.applied .alignfig__pill-label {
+.applied .alignfig__box-label {
     fill: var(--edit-maroon);
     font-family: inherit;
-}
-
-.applied .alignfig__pill-label--1 { animation-name: af-pill-label-1; }
-.applied .alignfig__pill-label--2 { animation-name: af-pill-label-2; }
-.applied .alignfig__pill-label--3 { animation-name: af-pill-label-3; }
-
-@keyframes af-word-1 {
-    0%, 2% { opacity: 0; }
-    8%, 90% { opacity: 1; }
-    97%, 100% { opacity: 0; }
-}
-
-@keyframes af-word-2 {
-    0%, 10% { opacity: 0; }
-    16%, 90% { opacity: 1; }
-    97%, 100% { opacity: 0; }
-}
-
-@keyframes af-word-3 {
-    0%, 18% { opacity: 0; }
-    24%, 90% { opacity: 1; }
-    97%, 100% { opacity: 0; }
-}
-
-@keyframes af-tx-label {
-    0%, 2% { opacity: 0; }
-    8%, 90% { opacity: 1; }
-    97%, 100% { opacity: 0; }
-}
-
-@keyframes af-audio-label {
-    0%, 28% { opacity: 0; }
-    34%, 90% { opacity: 1; }
-    97%, 100% { opacity: 0; }
-}
-
-@keyframes af-wipe {
-    0%, 30% { transform: scaleX(0); }
-    50%, 90% { transform: scaleX(1); }
-    97%, 100% { transform: scaleX(0); }
-}
-
-@keyframes af-align-label {
-    0%, 52% { opacity: 0; }
-    58%, 90% { opacity: 1; }
-    97%, 100% { opacity: 0; }
-}
-
-@keyframes af-bound-1 {
-    0%, 52% { opacity: 0; }
-    58%, 90% { opacity: 1; }
-    97%, 100% { opacity: 0; }
-}
-
-@keyframes af-bound-2 {
-    0%, 62% { opacity: 0; }
-    68%, 90% { opacity: 1; }
-    97%, 100% { opacity: 0; }
-}
-
-@keyframes af-bound-3 {
-    0%, 72% { opacity: 0; }
-    78%, 90% { opacity: 1; }
-    97%, 100% { opacity: 0; }
-}
-
-@keyframes af-pill-1 {
-    0%, 52% { transform: scaleX(0); }
-    62%, 90% { transform: scaleX(1); }
-    97%, 100% { transform: scaleX(0); }
-}
-
-@keyframes af-pill-2 {
-    0%, 62% { transform: scaleX(0); }
-    72%, 90% { transform: scaleX(1); }
-    97%, 100% { transform: scaleX(0); }
-}
-
-@keyframes af-pill-3 {
-    0%, 72% { transform: scaleX(0); }
-    82%, 90% { transform: scaleX(1); }
-    97%, 100% { transform: scaleX(0); }
-}
-
-@keyframes af-pill-label-1 {
-    0%, 58% { opacity: 0; }
-    64%, 90% { opacity: 1; }
-    97%, 100% { opacity: 0; }
-}
-
-@keyframes af-pill-label-2 {
-    0%, 68% { opacity: 0; }
-    74%, 90% { opacity: 1; }
-    97%, 100% { opacity: 0; }
-}
-
-@keyframes af-pill-label-3 {
-    0%, 78% { opacity: 0; }
-    84%, 90% { opacity: 1; }
-    97%, 100% { opacity: 0; }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .applied .alignfig__label,
-    .applied .alignfig__word,
-    .applied .alignfig__bound,
-    .applied .alignfig__pill-label,
-    .applied .alignfig__wipe,
-    .applied .alignfig__pill-box {
-        animation: none;
-        opacity: 1;
-        transform: none;
-    }
 }
 
 .applied .pipeline {
