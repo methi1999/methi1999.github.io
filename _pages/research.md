@@ -14,6 +14,42 @@ I am an AI Researcher at [Descript](https://www.descript.com/research), working 
 <div class="applied">
   <div class="applied__grid">
     <article class="applied__card">
+      <h3 class="applied__title">FuseAlign</h3>
+      <p class="applied__blurb">A transformer forced aligner for millisecond word boundaries on long, diverse speech and real ASR transcripts.</p>
+      <p class="applied__links"><a href="https://descriptinc.github.io/fusealign/">[project page]</a> <a href="https://arxiv.org/abs/2609.33650">[preprint]</a></p>
+      <figure class="applied__visual alignfig">
+        <svg viewBox="0 0 720 156" width="100%" role="img" aria-label="Transcript words appear, then the waveform, then alignment boxes that meet edge to edge">
+          <defs>
+            <mask id="fusealignWaveMask" maskUnits="userSpaceOnUse" x="108" y="36" width="552" height="84">
+              <rect class="alignfig__wipe" x="108" y="36" width="552" height="84" fill="#fff"/>
+            </mask>
+            <clipPath id="fusealignPillClip">
+              <rect x="108" y="116" width="552" height="28" rx="8"/>
+            </clipPath>
+          </defs>
+          <text class="alignfig__label alignfig__label--tx" x="0" y="22" font-size="13">transcript</text>
+          <text class="alignfig__label alignfig__label--audio" x="0" y="78" font-size="13">audio</text>
+          <text class="alignfig__label alignfig__label--align" x="0" y="130" font-size="13" dominant-baseline="middle">alignment</text>
+          <text class="alignfig__word alignfig__word--1" x="108" y="22" font-size="16" font-weight="700" text-anchor="start">every</text>
+          <text class="alignfig__word alignfig__word--2" x="158" y="22" font-size="16" font-weight="700" text-anchor="start">word</text>
+          <text class="alignfig__word alignfig__word--3" x="206" y="22" font-size="16" font-weight="700" text-anchor="start">counts</text>
+          <polyline class="alignfig__wave" mask="url(#fusealignWaveMask)" points="108,78 124,78 132,62 140,92 148,58 156,96 164,64 172,88 180,70 188,78 210,78 218,66 226,90 234,60 242,86 250,72 260,78 278,78 290,54 298,100 306,48 314,102 322,56 330,94 338,62 346,88 354,70 362,78 390,78 404,68 412,88 420,64 428,78 436,78 452,78 464,60 472,96 480,52 488,98 496,58 504,90 512,66 520,84 528,72 536,78 560,78 572,64 580,92 588,58 596,94 604,66 612,86 620,74 628,78 648,78 660,78" fill="none"/>
+          <line class="alignfig__bound alignfig__bound--1" x1="108" y1="46" x2="108" y2="116"/>
+          <line class="alignfig__bound alignfig__bound--2" x1="260" y1="46" x2="260" y2="116"/>
+          <line class="alignfig__bound alignfig__bound--3" x1="436" y1="46" x2="436" y2="116"/>
+          <line class="alignfig__bound alignfig__bound--4" x1="660" y1="46" x2="660" y2="116"/>
+          <g clip-path="url(#fusealignPillClip)">
+            <rect class="alignfig__pill-box alignfig__pill-box--1" x="108" y="116" width="152" height="28"/>
+            <rect class="alignfig__pill-box alignfig__pill-box--2" x="260" y="116" width="176" height="28"/>
+            <rect class="alignfig__pill-box alignfig__pill-box--3" x="436" y="116" width="224" height="28"/>
+          </g>
+          <text class="alignfig__pill-label alignfig__pill-label--1" x="184" y="130" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="middle">every</text>
+          <text class="alignfig__pill-label alignfig__pill-label--2" x="348" y="130" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="middle">word</text>
+          <text class="alignfig__pill-label alignfig__pill-label--3" x="548" y="130" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="middle">counts</text>
+        </svg>
+      </figure>
+    </article>
+    <article class="applied__card">
       <h3 class="applied__title">Audio Regenerate</h3>
       <p class="applied__blurb">Seamless word-level audio editing via latent inpainting.</p>
       <p class="applied__links"><a href="https://descriptinc.github.io/uvm-v2/">[project page]</a></p>
@@ -157,6 +193,9 @@ I am an AI Researcher at [Descript](https://www.descript.com/research), working 
 </div>
 
 ## Publications & Submissions
+
+* **FuseAlign: Forced Alignment in the Wild**  
+  [[preprint]](https://arxiv.org/abs/2609.33650) [[project page]](https://descriptinc.github.io/fusealign/)
 
 * **Goodbye Drift: Anchored Tree Sampling for Long-Horizon Video-to-Video Generation**  
   [[preprint]](https://arxiv.org/abs/2605.20476) [[project page]](https://descriptinc.github.io/ATS/) [[code]](https://github.com/descriptinc/ATS)
